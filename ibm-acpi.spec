@@ -1,7 +1,7 @@
 Summary: IBM ThinkPad ACPI Extras configuration scripts
 Name: ibm-acpi
 Version: 0.11
-Release: 1mdk
+Release:  %mkrel 1
 Source0: http://prdownloads.sourceforge.net/%{name}/%{name}-%{version}.tar.bz2
 License: GPL
 Group: System/Kernel and hardware
