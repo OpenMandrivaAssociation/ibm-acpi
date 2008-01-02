@@ -6,6 +6,7 @@ Source0: http://prdownloads.sourceforge.net/%{name}/%{name}-%{version}.tar.bz2
 License: GPL
 Group: System/Kernel and hardware
 Url: http://ibm-acpi.sourceforge.net/
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch: noarch
 # laptop_mode
 Requires: laptop-mode-tools
