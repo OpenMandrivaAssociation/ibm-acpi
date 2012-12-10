@@ -47,3 +47,33 @@ rm -rf $RPM_BUILD_ROOT
 %doc README CHANGES
 %{_sysconfdir}/acpi/actions/*
 %{_sysconfdir}/acpi/events/*
+
+
+%changelog
+* Fri Dec 10 2010 Oden Eriksson <oeriksson@mandriva.com> 0.11-5mdv2011.0
++ Revision: 619557
+- the mass rebuild of 2010.0 packages
+
+* Fri Sep 04 2009 Thierry Vignaud <tv@mandriva.org> 0.11-4mdv2010.0
++ Revision: 429488
+- rebuild
+
+* Thu Jul 24 2008 Thierry Vignaud <tv@mandriva.org> 0.11-3mdv2009.0
++ Revision: 247146
+- rebuild
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Mon Dec 17 2007 Thierry Vignaud <tv@mandriva.org> 0.11-1mdv2008.1
++ Revision: 126931
+- kill re-definition of %%buildroot on Pixel's request
+- use %%mkrel
+
+  + Emmanuel Andry <eandry@mandriva.org>
+    - Import ibm-acpi
+
+
+
+* Tue Oct  4 2005 Olivier Blin <oblin@mandriva.com> 0.11-1mdk
+- initial release
